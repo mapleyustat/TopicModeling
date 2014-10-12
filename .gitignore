@@ -59,3 +59,9 @@ TopicModelingSingleNodeALS/TopicModel/datasets/synthetic/samples_train.txt
 TopicModelingSingleNodeALS/TopicModel/datasets/synthetic/vocabsize.txt
 *.ipch
 *.sdf
+
+TopicModelingSingleNodeALS/TopicModel/TopicModel/exe-topicmodel.dSYM/Contents/Resources/DWARF/exe-topicmodel
+
+*.plist
+
+TopicModelingSingleNodeALS/TopicModel/TopicModel/exe-topicmodel

@@ -11,6 +11,7 @@
 #ifndef __TopicModel__Util__
 #define __TopicModel__Util__
 #include "stdafx.h"
+#include <float.h>
 int furong_atoi(string word);
 double furong_atof(string word);
 void gaussian_matrix(unsigned int p, unsigned int k, SparseMatrix<double> & Omega_sparse);
