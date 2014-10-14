@@ -662,7 +662,7 @@ int decode(VectorXd alpha, MatrixXd beta, VectorXd DOCLEN, SparseMatrix<double> 
 	f << "-1\t" << sumDOCLEN << "\t" << dummy.transpose() << endl;
 	f << "number of words in total : " << sumDOCLEN << endl;
 	f << "log likelihood: " << ll_sum << endl;
-	f << "perplexity score: " << pp << endl;
+	f << "perplexity score for k =" << KHID << ", alpha0 =" << alpha0 << ": " << pp << endl;
 
 	f.close();
 	return 0;

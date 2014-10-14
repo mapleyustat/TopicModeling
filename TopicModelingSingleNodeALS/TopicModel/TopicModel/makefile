@@ -7,7 +7,7 @@ exe-topicmodel: TopicModel.cpp IOfn.cpp Probability.cpp Pvalue.cpp Spectral.cpp 
 	g++ -o $@ $^ $(COPTZ) $(SUPP_WARN) -DNDEBUG -std=c++0x
 
 run:
-	./exe-topicmodel
+	./exe-topicmodel 5352 5352 27648  5  0.1 1 ../datasets/BMC/samples_train.txt ../datasets/BMC/samples_train.txt ../datasets/BMC/result/alpha.txt ../datasets/BMC/result/beta.txt ../datasets/BMC/result/hi.txt
 
 clean:
 	rm exe-topicmodel
