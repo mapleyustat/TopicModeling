@@ -1,6 +1,29 @@
 TopicModeling
 =============
 
+
+citation:
+
+@article{DBLP:journals/corr/HuangNHVA13,
+author    = {Furong Huang and
+Niranjan U. N and
+Mohammad Umar Hakeem and
+Prateek Verma and
+Animashree Anandkumar},
+title     = {Fast Detection of Overlapping Communities via Online Tensor Methods
+on GPUs},
+journal   = {CoRR},
+year      = {2013},
+volume    = {abs/1309.0787},
+url       = {http://arxiv.org/abs/1309.0787},
+timestamp = {Sat, 25 Oct 2014 03:19:58 +0200},
+biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/HuangNHVA13},
+bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+
+
+================
 Single node topic model learning and inference via method of moments using tensor decomposition. 
 Alternating least squares with pre-processing (a whitening step consists of orthogonalization and dimensionality reduction) is implemented. 
 
@@ -12,7 +35,7 @@ Data folder is:
 
 Input Arguments:
 
-//===============================================================================================================================================================
+//=========================================================================
 	// User Manual: 
 	// (1) Data specs
 	InputArgument 1: NX is the training sample size
@@ -41,5 +64,5 @@ Input Arguments:
 	// $(SolutionDir)\datasets\$(CorpusName)\result\beta.txt 	
 	// $(SolutionDir)\datasets\$(CorpusName)\result\hi.txt 
 	// e.g. $(SolutionDir)datasets\synthetic\result\alpha.txt $(SolutionDir)datasets\synthetic\result\beta.txt $(SolutionDir)datasets\synthetic\result\hi.txt
-	//==============================================================================================================================================================
+	//=====================================================================
 
